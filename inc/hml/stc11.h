@@ -111,8 +111,8 @@ __sbit __at (0xC7) P4_7     ;
 #define BIT_NUM_GF1         3
 #define BIT_NUM_POF         4
 #define BIT_NUM_LVDF        5
-#define BIT_NUM_SMOD        6
-#define BIT_NUM_SMOD0       7
+#define BIT_NUM_SMOD0       6
+#define BIT_NUM_SMOD        7
 
 /* TCON bits */
 #define BIT_NUM_T0_M0       0
