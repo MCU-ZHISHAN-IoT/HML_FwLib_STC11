@@ -222,6 +222,13 @@
 #endif
 
 /**
+ * \brief configure pow function
+ */
+#if (__CONF_HML_POW == 1)
+    #define HAVE_HML_POW
+#endif
+
+/**
  * \brief HML compile selection check
  */
 #ifndef HAVE_IAP

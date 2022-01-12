@@ -26,7 +26,10 @@
  *****************************************************************************/
 void disableAllInterrupts(void);
 void enableAllInterrupts(void);
-uint16_t pow(uint8_t x, uint8_t y);
 void sleep(uint16_t t);
+
+#ifdef HAVE_HML_POW
+uint16_t pow(uint8_t x, uint8_t y);
+#endif
 
 #endif
