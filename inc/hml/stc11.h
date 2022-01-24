@@ -11,9 +11,8 @@
 #ifndef ___HML_STC11_H___
 #define ___HML_STC11_H___
 
-#include <lint.h>
 #include <8051.h>
-#include "bit.h"
+#include "hml/types.h"
 
 /*  BYTE Register  */
 __sfr __at (0x8E) AUXR      ;
