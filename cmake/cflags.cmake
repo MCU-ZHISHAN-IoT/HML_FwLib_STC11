@@ -1,12 +1,12 @@
 # ------------------------------------------------------------------------
 # Author     : Weilun Fong | wlf@zhishan-iot.tk
-# Date       : 2022-01-16
-# Description: project Makefile
+# Date       : 2022-03-03
+# Description: compile parametes define
 # E-mail     : mcu@zhishan-iot.tk
 # Make-tool  : CMake
 # Page       : https://hw.zhishan-iot.tk/page/hml/detail/fwlib_stc11.html
 # Project    : HML_FwLib_STC11
-# Version    : v0.0.1
+# Version    : v0.0.2
 # ------------------------------------------------------------------------
 
 # Init variables
@@ -137,7 +137,6 @@ if(DEFINED MCU)
 else()
     message(FATAL_ERROR "user must specify MCU model")
 endif()
-
 
 # [CODE] internal ROM
 if(DEFINED CODE)
